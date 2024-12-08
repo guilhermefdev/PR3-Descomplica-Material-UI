@@ -22,7 +22,7 @@ const LoginPage = () => {
     setSuccess(false);
 
     if (!username || !password) {
-      setError("Por favor, preencha todos os campos.");
+      setError("Por favor, preencha todos os campos");
       return;
     }
 
